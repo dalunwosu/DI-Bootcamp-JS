@@ -1,0 +1,125 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url('circuit-pattern.png');
+  }
+  
+  .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    background-color:#55828B;
+  }
+  
+  #logo{
+    padding: 1em;
+    font-size: 1.5em;
+    background-color: #87BBA2;
+    border-radius: 0 5px 5px 0;
+    color:#364958;
+  }
+  
+  .search{
+    padding: 1em;
+  }
+  
+  .search > input {
+    width: 500px;
+    font-size: 18px;
+  }
+  
+  #robots{
+    display: flex;
+    justify-content: center;
+    background-image: url('circuit-pattern.png');
+  }
+  
+  #container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin-top: 3em;
+  }
+  
+  .robot-div{
+    display: flex;
+    margin: 1em;
+    padding: 1em;
+    flex-direction: column;
+    align-items: center;
+    background-color: #87BBA2;
+    border: 1px solid black;
+  }
+  
+  .robot-div-img{
+    background-color: #C9E4CA;
+    border-radius: 50%;
+  }
+  
+  .robot-img{
+    max-width:100%;
+    max-height:100%;
+    border-radius: 50%;
+  }
+  
+  .text-area-div{
+    margin-top: 0.5em;
+    align-self: flex-start;
+    width: 100%;
+    background-color: #364958;
+    color: #87BBA2;
+    border-radius: 2px;
+  }
+  
+  .robot-name{
+    font-size: large;
+    font-weight: bold;
+    padding: 0 0.5em
+  }
+  
+  .robot-description{
+    padding: 0 0.5em
+  }
+  
+  
+  /*modal */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
