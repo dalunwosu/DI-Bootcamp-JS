@@ -1,0 +1,20 @@
+.main {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+}
+.login{
+   display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 20px;
+}
+.register {
+   display: flex;
+  position: relative;
+  flex-direction: column;
+  margin: 20px;
+}
+button{
+  margin-top: 10px;
+}
