@@ -1,22 +1,26 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import UserFavoriteColors from './UserFavoriteColors';
+import Exercise4 from './exercise-4';
+
+
+
+//Exercise 3
+const user = {
+  firstName: 'Bob',
+  lastName: 'Dylan',
+  favAnimals : ['Horse','Turtle','Elephant','Monkey']
+};
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h3>{user.firstName}</h3>
+        <h3>{user.lastName}</h3>
+
+        <UserFavoriteColors fav_animals={user.favAnimals}/>
+        <Exercise4/>
       </header>
     </div>
   );

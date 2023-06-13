@@ -5,10 +5,33 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
+
+// Exercise 1 :
+const h1 = React.createElement('h1' , null , 'I do not use JSX')
+
+
+
+
+
+// Exercise 2
+const myelement = <h1>I Love JSX!</h1>;
+const sum = 5+5
+const better = <h1>React is {sum} times better with JSX</h1>
+
+
+
+
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+
+  <>
+  <App/>
+  {myelement}
+  {h1}
+  {better}
+  </>
 );
 
 // If you want to start measuring performance in your app, pass a function
