@@ -70,11 +70,10 @@ function App() {
 
   document.body.style.backgroundColor = buttonColor;
   const fadeInColor = () => {
-
-    document.body.style.transition = 'background-color 1s ease';
+    document.body.style.transition = "background-color 1s ease";
     document.body.style.backgroundColor = buttonColor;
   };
-  
+
   return (
     <div style={{ backgroundColor: "white" }} className="quotebox">
       <div class="fadeIn" style={{ color: textColor }}>
@@ -87,7 +86,7 @@ function App() {
         onClick={() => {
           generateQuote();
           fadeInElement();
-          fadeInColor()
+          fadeInColor();
         }}
       >
         New quote
