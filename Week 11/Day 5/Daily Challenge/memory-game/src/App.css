@@ -87,24 +87,24 @@ header p {
   cursor: pointer;
 }
 
-.card>.img-container {
+.card > .img-container {
   height: 80%;
   overflow: hidden;
   text-align: center;
 }
 
-.card>.img-container>img {
-  width: 80%
+.card > .img-container > img {
+  width: 80%;
 }
 
-.card>.content {
+.card > .content {
   padding-left: 1rem;
   padding-right: 1rem;
   font-size: 15px;
-  background: #6CADDC;
+  background: #6caddc;
 }
 
-.card>.img-content>ul {
+.card > .img-content > ul {
   list-style-type: none;
 }
 
