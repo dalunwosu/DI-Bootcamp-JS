@@ -8,9 +8,9 @@ const Counter = (props) => {
   return (
     <div id='root'>
         <div>
-      <button onClick={()=>dispatch(increaseCount())}> - </button>
+      <button onClick={()=>dispatch(decreaseCount())}> - </button>
        <span>{count}</span> 
-      <button onClick={()=>dispatch(decreaseCount())}> + </button>
+      <button onClick={()=>dispatch(increaseCount())}> + </button>
       </div>
     </div>
   )
